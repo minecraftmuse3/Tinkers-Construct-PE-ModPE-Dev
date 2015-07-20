@@ -259,7 +259,7 @@ Item.addCraftRecipe(412, 1, 0, [410, 1, 0]);
 
 ModPE.setItem(411, "ingot_cast", 0, "Ingot Cast"); 
 Item.setCategory(411, 2); 
-Item.addShapedRecipe(411, 1, 0, ["i. ", "   ", "  i"], ["i", 265, 0]);
+Item.addShapedRecipe(411, 1, 0, ["i  ", "   ", "  i"], ["i", 265, 0]);
 Player.addItemCreativeInv(411, 1);
 
 ModPE.setItem(472, "seared_brick", 0, "Seared Brick");  
@@ -268,69 +268,69 @@ Player.addItemCreativeInv(472, 1);
 
 ModPE.setItem(470, "cactus_crossbar", 0, "Cactus Crossbar", 64); 
 //Item.addShapedRecipe(470, 1, 0, ["   ", "cpc", "   "], ["p", 496, 0, "c", 81, 0]); 
-Item.addShapedRecipe(470, 1, 0, ["   ", "cpc", "   "], ["c", 81, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(470, 1, 0, ["   ", "cpc", "   "], ["c", 81, 0,"p", 496, 0]); 
 Item.setCategory(470, 2); 
 
 ModPE.setItem(467, "cactus_largeplate", 0, "Cactus Large Plate"); 
-Item.addShapedRecipe(467, 1, 0, ["ccc", "cpc", "ccc"], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(467, 1, 0, ["ccc", "cpc", "ccc"], ["p", 496, 0, "c", 81, 0]); 
 
 ModPE.setItem(466, "cactus_lumberaxe_head", 0, "Cactus Lumber Axe Head"); 
-Item.addShapedRecipe(466, 1, 0, ["cc ", "cp ", "   "], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(466, 1, 0, ["cc ", "cp ", "   "], ["p", 496, 0, "c", 81, 0]); 
 
 ModPE.setItem(465, "cactus_binding_reinforced", 0, "Cactus Tough Bind"); 
-Item.addShapedRecipe(465, 1, 0, ["c c", " p ", "c c"], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(465, 1, 0, ["c c", " p ", "c c"], ["p", 496, 0, "c", 81, 0]); 
 
 ModPE.setItem(464, "cactus_rod_reinforced", 0, "Cactus Tough Rod"); 
-Item.addShapedRecipe(464, 1, 0, ["ptp", "ptp", "ptp"], ["p", 467, 0, "c", 459, 0]); 
+//Item.addShapedRecipe(464, 1, 0, ["ptp", "ptp", "ptp"], ["p", 467, 0, "c", 459, 0]); 
 
 ModPE.setItem(460, "cactus_wideguard", 0, "Cactus Wide Guard"); 
-Item.addShapedRecipe(460, 1, 0, ["c c", "cpc", "   "], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(460, 1, 0, ["c c", "cpc", "   "], ["p", 496, 0, "c", 81, 0]); 
 Item.setCategory(460, 2); 
 
 ModPE.setItem(459, "cactus_rod", 0, "Cactus Tool Rod"); 
 Item.setCategory(459, 2); 
 //Item.addShapedRecipe(459, 1, 0, [" c ", " p ", " c "], ["p", 496, 0, "c", 81, 0]); 
-Item.addShapedRecipe(459, 1, 0, [" p ", " c ", " c "], ["c", 81, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(459, 1, 0, [" p ", " c ", " c "], ["c", 81, 0,"p", 496, 0]); 
 
 ModPE.setItem(458, "cactus_blade", 0, "Cactus Sword Blade"); 
 Item.setCategory(458, 2); 
-Item.addShapedRecipe(458, 1, 0, [" c ", " c ", " p "], ["c", 81, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(458, 1, 0, [" c ", " c ", " p "], ["c", 81, 0,"p", 496, 0]); 
 
 ModPE.setItem(463, "cactus_chiselhead", 0, "Cactus Chisel Head"); 
 Item.setCategory(463, 2); 
-Item.addShapedRecipe(463, 1, 0, [" c ", " c ", " p "], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(463, 1, 0, [" c ", " c ", " p "], ["p", 496, 0, "c", 81, 0]); 
 
 ModPE.setItem(462, "cactus_chisel", 0, "Cactus Chisel", 1); 
 Item.setCategory(462, 2); 
-Item.addShapedRecipe(462, 1, 0, ["   ", " h ", " t "], ["h", 463, 0, "t", 459, 0]); 
+//Item.addShapedRecipe(462, 1, 0, ["   ", " h ", " t "], ["h", 463, 0, "t", 459, 0]); 
 Item.setMaxDamage(462, 150);
 Player.addItemCreativeInv(462, 1);
 
 ModPE.setItem(461, "cactus_panhead", 0, "Cactus Pan"); 
 Item.setCategory(461, 2); 
-Item.addShapedRecipe(461, 1, 0, ["cc ", "cp ", "   "], ["c", 81, 0, "p", 496, 0]); 
+//Item.addShapedRecipe(461, 1, 0, ["cc ", "cp ", "   "], ["c", 81, 0, "p", 496, 0]); 
 
 ModPE.setItem(457, "cactus_frypan", 0, "Cactus Frying Pan", 1); 
 Item.setCategory(457, 2); 
-Item.addShapedRecipe(457, 1, 0, ["   ", " p ", " t "], ["p", 461, 0, "t", 459, 0]); 
+//Item.addShapedRecipe(457, 1, 0, ["   ", " p ", " t "], ["p", 461, 0, "t", 459, 0]); 
 Item.setMaxDamage(457, 150);
 Player.addItemCreativeInv(457, 1);
 
 ModPE.setItem(454, "cactus_pickaxe", 0, "Cactus Pickaxe", 1);
-Item.addShapedRecipe(454, 1, 0, [" h ", " b ", " t "], ["h", 455, 0, "t", 459, 0, "b", 456, 0]); 
+//Item.addShapedRecipe(454, 1, 0, [" h ", " b ", " t "], ["h", 455, 0, "t", 459, 0, "b", 456, 0]); 
 Item.setMaxDamage(454, 150);
 Player.addItemCreativeInv(454, 1);
 
 ModPE.setItem(455, "cactus_pickaxehead", 0, "Cactus Pickaxe Head");
-Item.addShapedRecipe(455, 1, 0, ["ccc", " p ", "   "], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(455, 1, 0, ["ccc", " p ", "   "], ["p", 496, 0, "c", 81, 0]); 
 
 ModPE.setItem(456, "cactus_binding", 0, "Cactus Pickaxe Binding");
-Item.addShapedRecipe(456, 1, 0, ["c c", " p ", "c c"], ["p", 496, 0, "c", 81, 0]); 
+//Item.addShapedRecipe(456, 1, 0, ["c c", " p ", "c c"], ["p", 496, 0, "c", 81, 0]); 
 
-Item.addShapedRecipe(400, 1, 0, ["www", "w w", "   "], ["w", 17, 0]);
-Item.addShapedRecipe(401, 1, 0, ["w w", "www", "www"], ["w", 17, 0]);
-Item.addShapedRecipe(402, 1, 0, ["www", "w w", "w w"], ["w", 17, 0]);
-Item.addShapedRecipe(403, 1, 0, ["   ", "w w", "w w"], ["w", 17, 0]);
+//Item.addShapedRecipe(400, 1, 0, ["www", "w w", "   "], ["w", 17, 0]);
+//Item.addShapedRecipe(401, 1, 0, ["w w", "www", "www"], ["w", 17, 0]);
+//Item.addShapedRecipe(402, 1, 0, ["www", "w w", "w w"], ["w", 17, 0]);
+//Item.addShapedRecipe(403, 1, 0, ["   ", "w w", "w w"], ["w", 17, 0]);
 
 Item.defineArmor(400, "wood_helmet", 0, "Wood Helmet",
 "armor/wood_2.png", 1, 31, ArmorType.helmet);
@@ -346,44 +346,44 @@ Item.defineArmor(403, "wood_boots", 0, "Wood Boots",
 
 
 ModPE.setItem(496, "pattern", 0, "Pattern"); 
-Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 0, "s", 280, 0]); 
-Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 1, "s", 280, 0]); 
-Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 2, "s", 280, 0]); 
-Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 3, "s", 280, 0]); 
-Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 4, "s", 280, 0]); 
+//Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 0, "s", 280, 0]); 
+//Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 1, "s", 280, 0]); 
+//Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 2, "s", 280, 0]); 
+//Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 3, "s", 280, 0]); 
+//Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 4, "s", 280, 0]); 
 Item.addShapedRecipe(496, 1, 0, ["sw ", "ws ", " "], ["w" ,5, 5, "s", 280, 0]); 
 Player.addItemCreativeInv(496, 1);
 
 ModPE.setItem(499, "stone_blade", 0, "Stone Sword Blade"); 
-Item.addShapedRecipe(499, 1, 0, [" c ", " c ", " p "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(499, 1, 0, [" c ", " c ", " p "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(499, 2); 
 
 ModPE.setItem(498, "stone_crossbar", 0, "Stone Crossbar"); 
-Item.addShapedRecipe(498, 1, 0, ["   ", "cpc", "   "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(498, 1, 0, ["   ", "cpc", "   "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(498, 2); 
 
 ModPE.setItem(497, "stone_rod", 0, "Stone Tool Rod"); 
-Item.addShapedRecipe(497, 1, 0, [" p ", " c ", " c "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(497, 1, 0, [" p ", " c ", " c "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(497, 2); 
 
 ModPE.setItem(501, "blaze_rod", 0, "Blaze Rod"); 
-Item.addCraftRecipe(501, 1, 0, [266, 2, 0]); 
+//Item.addCraftRecipe(501, 1, 0, [266, 2, 0]); 
 Item.setCategory(501, 2); 
 Player.addItemCreativeInv(501, 1);
 
 ModPE.setItem(502, "blaze_powder", 0, "Blaze Powder"); 
-Item.addCraftRecipe(502, 3, 0, [501, 1, 0]); 
+//Item.addCraftRecipe(502, 3, 0, [501, 1, 0]); 
 Item.setCategory(502, 2); 
 Player.addItemCreativeInv(502, 1);
 
 ModPE.setItem(500, "stone_rapier", 0, "Stone Rapier", 1); 
-Item.addShapedRecipe(500, 1, 0, [" s ", " c ", " t "], ["s", 499, 0, "c", 498, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(500, 1, 0, [" s ", " c ", " t "], ["s", 499, 0, "c", 498, 0, "t", 497, 0]); 
 Item.setCategory(500, ItemCategory.TOOL, 0); 
 Item.setMaxDamage(500, 131); 
 Player.addItemCreativeInv(500, 1);
 
 ModPE.setItem(469, "cactus_rapier", 0, "Cactus Rapier", 1); 
-Item.addShapedRecipe(469, 1, 0, [" s ", " c ", " t "], ["c", 470, 0, "t", 459, 0, "s", 458, 0]); 
+//Item.addShapedRecipe(469, 1, 0, [" s ", " c ", " t "], ["c", 470, 0, "t", 459, 0, "s", 458, 0]); 
 Item.setCategory(469, 2); 
 Item.setMaxDamage(469, 150); 
 Player.addItemCreativeInv(469, 1);
@@ -391,92 +391,92 @@ Player.addItemCreativeInv(469, 1);
 ModPE.setItem(413, "cactus_rapier_sharp", 0, "Rapier Sharpness I", 1); 
 Item.setMaxDamage(413, 150); 
 //Item.addShapedRecipe(413, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 469, 0]);
-Item.addShapedRecipe(413, 1, 0, ["   ", " q ", " r "], ["r", 469, 0, "q", 406, 0]);
+//Item.addShapedRecipe(413, 1, 0, ["   ", " q ", " r "], ["r", 469, 0, "q", 406, 0]);
 Player.addItemCreativeInv(413, 1);
 
 ModPE.setItem(414, "cactus_rapier_sharp", 0, "Rapier Sharpness II", 1); 
 Item.setMaxDamage(414, 150); 
 //Item.addShapedRecipe(414, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 413, 0]);
-Item.addShapedRecipe(414, 1, 0, ["   ", " q ", " r "], ["r", 413, 0, "q", 406, 0]);
+//Item.addShapedRecipe(414, 1, 0, ["   ", " q ", " r "], ["r", 413, 0, "q", 406, 0]);
 Player.addItemCreativeInv(414, 1);
 
 ModPE.setItem(415, "cactus_rapier_sharp", 0, "Rapier Sharpness III", 1); 
 Item.setMaxDamage(415, 150); 
 //Item.addShapedRecipe(415, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 414, 0]);
-Item.addShapedRecipe(415, 1, 0, ["   ", " q ", " r "], ["r", 414, 0, "q", 406, 0]);
+//Item.addShapedRecipe(415, 1, 0, ["   ", " q ", " r "], ["r", 414, 0, "q", 406, 0]);
 Player.addItemCreativeInv(415, 1);
 
 ModPE.setItem(503, "stone_rapier_sharp", 0, "Rapier Sharpness I", 1); 
 Item.setMaxDamage(503, 131); 
 //Item.addShapedRecipe(503, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 500, 0])
-Item.addShapedRecipe(503, 1, 0, ["   ", " r ", " q "], ["r", 500, 0, "q", 406, 0]);
+//Item.addShapedRecipe(503, 1, 0, ["   ", " r ", " q "], ["r", 500, 0, "q", 406, 0]);
 Player.addItemCreativeInv(503, 1);
 
 
 ModPE.setItem(505, "stone_rapier_sharp", 0, "Rapier Sharpness II", 1); 
 Item.setMaxDamage(505, 131); 
 //Item.addShapedRecipe(505, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 503, 0])
-Item.addShapedRecipe(505, 1, 0, ["   ", " r ", " q "], ["r", 503, 0, "q", 406, 0]);
+//Item.addShapedRecipe(505, 1, 0, ["   ", " r ", " q "], ["r", 503, 0, "q", 406, 0]);
 Player.addItemCreativeInv(505, 1);
 
 ModPE.setItem(506, "stone_rapier_sharp", 0, "Rapier Sharpness III", 1);
 Item.setMaxDamage(506, 131); 
 //Item.addShapedRecipe(506, 1, 0, [ " ", " b ", " r "], ["b", 406, 0, "r", 505, 0]); 
-Item.addShapedRecipe(506, 1, 0, ["   ", " r ", " q "], ["r", 505, 0, "q", 406, 0]);
+//Item.addShapedRecipe(506, 1, 0, ["   ", " r ", " q "], ["r", 505, 0, "q", 406, 0]);
 Player.addItemCreativeInv(506, 1);
 
 ModPE.setItem(504, "stone_rapier_firey", 0, "Rapier Firey I", 1); 
 Item.setMaxDamage(504, 131); 
 //Item.addShapedRecipe(504, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 500, 0]); 
-Item.addShapedRecipe(504, 1, 0, ["   ", " q ", " r "], ["r", 500, 0, "q", 502, 0]);
+//Item.addShapedRecipe(504, 1, 0, ["   ", " q ", " r "], ["r", 500, 0, "q", 502, 0]);
 Player.addItemCreativeInv(504, 1);
 
 ModPE.setItem(507, "stone_rapier_firey", 0, "Rapier Firey II", 1); 
 Item.setMaxDamage(507, 131); 
 //Item.addShapedRecipe(507, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 504, 0]); 
-Item.addShapedRecipe(507, 1, 0, ["   ", " q ", " r "], ["r", 504, 0, "q", 502, 0]);
+//Item.addShapedRecipe(507, 1, 0, ["   ", " q ", " r "], ["r", 504, 0, "q", 502, 0]);
 Player.addItemCreativeInv(507, 1);
 
 ModPE.setItem(508, "stone_rapier_firey", 0, "Rapier Firey III", 1); 
 Item.setMaxDamage(508, 131); 
 //Item.addShapedRecipe(508, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 507, 0]); 
-Item.addShapedRecipe(508, 1, 0, ["   ", " q ", " r "], ["r", 507, 0, "q", 502, 0]);
+//Item.addShapedRecipe(508, 1, 0, ["   ", " q ", " r "], ["r", 507, 0, "q", 502, 0]);
 Player.addItemCreativeInv(508, 1);
 
 ModPE.setItem(416, "cactus_rapier_firey", 0, "Rapier Firey I", 1); 
 Item.setMaxDamage(416, 150); 
 //Item.addShapedRecipe(416, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 469, 0]); 
-Item.addShapedRecipe(416, 1, 0, ["   ", " q ", " r "], ["r", 469, 0, "q", 502, 0]);
+//Item.addShapedRecipe(416, 1, 0, ["   ", " q ", " r "], ["r", 469, 0, "q", 502, 0]);
 Player.addItemCreativeInv(416, 1);
 
 ModPE.setItem(417, "cactus_rapier_firey", 0, "Rapier Firey II", 1); 
 Item.setMaxDamage(417, 150); 
 //Item.addShapedRecipe(417, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 416, 0]); 
-Item.addShapedRecipe(417, 1, 0, ["   ", " q ", " r "], ["r", 416, 0, "q", 502, 0]);
+//Item.addShapedRecipe(417, 1, 0, ["   ", " q ", " r "], ["r", 416, 0, "q", 502, 0]);
 Player.addItemCreativeInv(417, 1);
 
 ModPE.setItem(418, "cactus_rapier_firey", 0, "Rapier Firey III", 1); 
 Item.setMaxDamage(418, 150); 
 //Item.addShapedRecipe(418, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 417, 0]); 
-Item.addShapedRecipe(418, 1, 0, ["   ", " q ", " r "], ["r", 417, 0, "q", 502, 0]);
+//Item.addShapedRecipe(418, 1, 0, ["   ", " q ", " r "], ["r", 417, 0, "q", 502, 0]);
 Player.addItemCreativeInv(418, 1);
 
 ModPE.setItem(509, "stone_pan", 0, "Stone Pan"); 
-Item.addCraftRecipe(509, 1, 0, [496, 1, 0, 4, 2, 0]); 
+//Item.addCraftRecipe(509, 1, 0, [496, 1, 0, 4, 2, 0]); 
 Item.setCategory(509, 2); 
 
 ModPE.setItem(510, "stone_frypan", 0, "Stone Frying Pan", 1); 
-Item.addShapedRecipe(510, 1, 0, ["   ", " p ", " t "], ["p", 509, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(510, 1, 0, ["   ", " p ", " t "], ["p", 509, 0, "t", 497, 0]); 
 Item.setCategory(510, 2); 
 Item.setMaxDamage(510, 131); 
 Player.addItemCreativeInv(510, 1);
 
 ModPE.setItem(511, "stone_wideguard", 0, "Stone Wide Guard"); 
-Item.addShapedRecipe(511, 1, 0, ["c c", "cpc", "   "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(511, 1, 0, ["c c", "cpc", "   "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(511, 2); 
 
 ModPE.setItem(495, "stone_broadsword", 0, "Stone Broadsword", 1); 
-Item.addShapedRecipe(495, 1, 0, [" s ", " w ", " t "], ["s", 499, 0, "w", 511, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(495, 1, 0, [" s ", " w ", " t "], ["s", 499, 0, "w", 511, 0, "t", 497, 0]); 
 Item.setCategory(495, 2); 
 Item.setMaxDamage(495, 131); 
 Item.setHandEquipped(495, true);
@@ -485,26 +485,26 @@ Player.addItemCreativeInv(495, 1);
 ModPE.setItem(430, "stone_broadsword_firey", 0, "Broadsword Firey I", 1); 
 Item.setMaxDamage(430, 131); 
 //Item.addShapedRecipe(430, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 495, 0]); 
-Item.addShapedRecipe(430, 1, 0, ["   ", " q ", " r "], ["r", 495, 0, "q", 502, 0]);
+//Item.addShapedRecipe(430, 1, 0, ["   ", " q ", " r "], ["r", 495, 0, "q", 502, 0]);
 Item.setHandEquipped(430, true);
 Player.addItemCreativeInv(430, 1);
 
 ModPE.setItem(431, "stone_broadsword_firey", 0, "Broadsword Firey II", 1); 
 Item.setMaxDamage(431, 131); 
 //Item.addShapedRecipe(431, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 430, 0]); 
-Item.addShapedRecipe(431, 1, 0, ["   ", " q ", " r "], ["r", 430, 0, "q", 502, 0]);
+//Item.addShapedRecipe(431, 1, 0, ["   ", " q ", " r "], ["r", 430, 0, "q", 502, 0]);
 Item.setHandEquipped(431, true);
 Player.addItemCreativeInv(431, 1);
 
 ModPE.setItem(432, "stone_broadsword_firey", 0, "Broadsword Firey III", 1); 
 Item.setMaxDamage(432, 131); 
 //Item.addShapedRecipe(432, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 431, 0]); 
-Item.addShapedRecipe(432, 1, 0, ["   ", " q ", " r "], ["r", 431, 0, "q", 502, 0]);
+//Item.addShapedRecipe(432, 1, 0, ["   ", " q ", " r "], ["r", 431, 0, "q", 502, 0]);
 Item.setHandEquipped(432, true);
 Player.addItemCreativeInv(432, 1);
 
 ModPE.setItem(476, "cactus_broadsword", 0, "Cactus Broadsword", 1); 
-Item.addShapedRecipe(476, 1, 0, [" s ", " w ", " t "], ["s", 458, 0, "w", 459, 0, "t", 460, 0]); 
+//Item.addShapedRecipe(476, 1, 0, [" s ", " w ", " t "], ["s", 458, 0, "w", 459, 0, "t", 460, 0]); 
 Item.setCategory(476, 2); 
 Item.setMaxDamage(476, 150); 
 Item.setHandEquipped(476, true);
@@ -512,46 +512,46 @@ Player.addItemCreativeInv(476, 1);
 
 ModPE.setItem(494, "stone_broadsword_sharp", 0, "Broadsword Sharpness I", 1); 
 Item.setMaxDamage(494, 131); 
-Item.addShapedRecipe(494, 1, 0, ["   ", " q ", " r "], ["r", 495, 0, "q", 406, 0]);
+//Item.addShapedRecipe(494, 1, 0, ["   ", " q ", " r "], ["r", 495, 0, "q", 406, 0]);
 Item.setHandEquipped(494, true);
 Player.addItemCreativeInv(494, 1);
 
 ModPE.setItem(493, "stone_broadsword_sharp", 0, "Broadsword Sharpness II", 1); 
 Item.setMaxDamage(493, 131); 
-Item.addShapedRecipe(493, 1, 0, ["   ", " q ", " r "], ["r", 494, 0, "q", 406, 0]);
+//Item.addShapedRecipe(493, 1, 0, ["   ", " q ", " r "], ["r", 494, 0, "q", 406, 0]);
 Item.setHandEquipped(493, true);
 Player.addItemCreativeInv(493, 1);
 
 ModPE.setItem(492, "stone_broadsword_sharp", 0, "Broadsword Sharpness III", 1); 
 Item.setMaxDamage(492, 131); 
-Item.addShapedRecipe(492, 1, 0, ["   ", " q ", " r "], ["r", 493, 0, "q", 406, 0]);
+//Item.addShapedRecipe(492, 1, 0, ["   ", " q ", " r "], ["r", 493, 0, "q", 406, 0]);
 Item.setHandEquipped(492, true);
 Player.addItemCreativeInv(492, 1);
 
 ModPE.setItem(419, "cactus_broadsword_sharp", 0, "Broadsword Sharpness I", 1); 
 Item.setMaxDamage(419, 150); 
-Item.addShapedRecipe(419, 1, 0, ["   ", " q ", " r "], ["r", 476, 0, "q", 406, 0]);
+//Item.addShapedRecipe(419, 1, 0, ["   ", " q ", " r "], ["r", 476, 0, "q", 406, 0]);
 Item.setHandEquipped(419, true);
 Player.addItemCreativeInv(419, 1);
 
 ModPE.setItem(420, "cactus_broadsword_sharp", 0, "Broadsword Sharpness II", 1); 
 Item.setMaxDamage(420, 150); 
-Item.addShapedRecipe(420, 1, 0, ["   ", " q ", " r "], ["r", 419, 0, "q", 406, 0]);
+//Item.addShapedRecipe(420, 1, 0, ["   ", " q ", " r "], ["r", 419, 0, "q", 406, 0]);
 Item.setHandEquipped(420, true);
 Player.addItemCreativeInv(420, 1);
 
 ModPE.setItem(421, "cactus_broadsword_sharp", 0, "Broadsword Sharpness III", 1); 
 Item.setMaxDamage(421, 150); 
-Item.addShapedRecipe(421, 1, 0, ["   ", " q ", " r "], ["r", 420, 0, "q", 406, 0]);
+//Item.addShapedRecipe(421, 1, 0, ["   ", " q ", " r "], ["r", 420, 0, "q", 406, 0]);
 Item.setHandEquipped(421, true);
 Player.addItemCreativeInv(421, 1);
 
 ModPE.setItem(491, "stone_knifehead", 0, "Stone Knife Blade"); 
-Item.addShapedRecipe(491, 1, 0, [" p", " c ", "c  "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(491, 1, 0, [" p", " c ", "c  "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(491, 2); 
 
 ModPE.setItem(490, "stone_dagger", 0, "Stone Dagger", 1); 
-Item.addShapedRecipe(490, 1, 0, [" k ", " c ", " t "], ["k", 491, 0, "c", 498, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(490, 1, 0, [" k ", " c ", " t "], ["k", 491, 0, "c", 498, 0, "t", 497, 0]); 
 Item.setCategory(490, 2); 
 Item.setMaxDamage(490, 131); 
 Item.setHandEquipped(490, true);
@@ -561,129 +561,129 @@ Player.addItemCreativeInv(490, 1);
  ModPE.setItem(433, "stone_dagger_firey", 0, "Dagger Firey I", 1); 
 Item.setMaxDamage(433, 131); 
 //Item.addShapedRecipe(433, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 490, 0]); 
-Item.addShapedRecipe(433, 1, 0, ["   ", " q ", " r "], ["r", 490, 0, "q", 502, 0]);
+//Item.addShapedRecipe(433, 1, 0, ["   ", " q ", " r "], ["r", 490, 0, "q", 502, 0]);
 Player.addItemCreativeInv(433, 1);
 Item.setHandEquipped(433, true);
 
 ModPE.setItem(434, "stone_dagger_firey", 0,  "Dagger Firey II", 1); 
 Item.setMaxDamage(434, 131); 
 //Item.addShapedRecipe(434, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 433, 0]); 
-Item.addShapedRecipe(434, 1, 0, ["   ", " q ", " r "], ["r", 433, 0, "q", 502, 0]);
+//Item.addShapedRecipe(434, 1, 0, ["   ", " q ", " r "], ["r", 433, 0, "q", 502, 0]);
 Item.setHandEquipped(434, true);
 Player.addItemCreativeInv(434, 1);
 
 ModPE.setItem(435, "stone_dagger_firey", 0, "Dagger Firey III", 1); 
 Item.setMaxDamage(435, 131); 
 //Item.addShapedRecipe(435, 1, 0, [ " ", " b ", " r "], ["b", 502, 0, "r", 434, 0]); 
-Item.addShapedRecipe(435, 1, 0, ["   ", " q ", " r "], ["r", 434, 0, "q", 502, 0]);
+//Item.addShapedRecipe(435, 1, 0, ["   ", " q ", " r "], ["r", 434, 0, "q", 502, 0]);
 Item.setHandEquipped(435, true);
 Player.addItemCreativeInv(435, 1);
 
 ModPE.setItem(489, "stone_dagger_sharp", 0, "Dagger Sharpness I", 1); 
 Item.setMaxDamage(489, 131); 
-Item.addShapedRecipe(489, 1, 0, ["   ", " q ", " r "], ["r", 490, 0, "q", 406, 0]);
+//Item.addShapedRecipe(489, 1, 0, ["   ", " q ", " r "], ["r", 490, 0, "q", 406, 0]);
 Player.addItemCreativeInv(489, 1);
 Item.setHandEquipped(489, true);
 
 ModPE.setItem(488, "stone_dagger_sharp", 0, "Dagger Sharpness II", 1); 
 Item.setMaxDamage(488, 131); 
-Item.addShapedRecipe(488, 1, 0, ["   ", " q ", " r "], ["r", 489, 0, "q", 406, 0]);
+//Item.addShapedRecipe(488, 1, 0, ["   ", " q ", " r "], ["r", 489, 0, "q", 406, 0]);
 Item.setHandEquipped(488, true);
 Player.addItemCreativeInv(488, 1);
 
 ModPE.setItem(487, "stone_dagger_sharp", 0, "Dagger Sharpness III", 1); 
 Item.setMaxDamage(487, 131); 
-Item.addShapedRecipe(487, 1, 0, ["   ", " q ", " r "], ["r", 488, 0, "q", 406, 0]);
+//Item.addShapedRecipe(487, 1, 0, ["   ", " q ", " r "], ["r", 488, 0, "q", 406, 0]);
 Item.setHandEquipped(487, true);
 Player.addItemCreativeInv(487, 1);
 
 ModPE.setItem(428, "cactus_knifehead", 0, "Cactus Knife Blade", 1); 
-Item.addShapedRecipe(428, 1, 0, [" p", " c ", "c  "], ["c", 81, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(428, 1, 0, [" p", " c ", "c  "], ["c", 81, 0,"p", 496, 0]); 
 Item.setCategory(428, 2); 
 
 ModPE.setItem(429, "cactus_dagger", 0, "Cactus Dagger", 1); 
-Item.addCraftRecipe(429, 1, 0, [428, 1, 0], [459, 1, 0], [470, 1, 0]); 
+//Item.addCraftRecipe(429, 1, 0, [428, 1, 0], [459, 1, 0], [470, 1, 0]); 
 Item.setMaxDamage(429, 150); 
 Item.setHandEquipped(429, true);
 Player.addItemCreativeInv(429, 1);
 
 ModPE.setItem(424, "cactus_dagger_sharp", 0, "Dagger Sharpness I", 1); 
 Item.setMaxDamage(424, 150); 
-Item.addShapedRecipe(424, 1, 0, ["   ", " q ", " r "], ["r", 429, 0, "q", 406, 0]);
+//Item.addShapedRecipe(424, 1, 0, ["   ", " q ", " r "], ["r", 429, 0, "q", 406, 0]);
 Item.setHandEquipped(424, true);
 Player.addItemCreativeInv(424, 1);
 
 ModPE.setItem(425, "cactus_dagger_sharp", 0, "Dagger Sharpness II", 1); 
 Item.setMaxDamage(425, 150); 
-Item.addShapedRecipe(425, 1, 0, ["   ", " q ", " r "], ["r", 424, 0, "q", 406, 0]);
+//Item.addShapedRecipe(425, 1, 0, ["   ", " q ", " r "], ["r", 424, 0, "q", 406, 0]);
 Item.setHandEquipped(425, true);
 Player.addItemCreativeInv(425, 1);
 
 ModPE.setItem(426, "cactus_dagger_sharp", 0, "Dagger Sharpness III", 1); 
 Item.setMaxDamage(426, 150); 
-Item.addShapedRecipe(426, 1, 0, ["   ", " q ", " r "], ["r", 425, 0, "q", 406, 0]);
+//Item.addShapedRecipe(426, 1, 0, ["   ", " q ", " r "], ["r", 425, 0, "q", 406, 0]);
 Item.setHandEquipped(426, true);
 Player.addItemCreativeInv(426, 1);
 
 ModPE.setItem(486, "stone_axehead", 0, "Stone Axe Head"); 
-Item.addShapedRecipe(486, 1, 0, ["cc ", "cp ", "   "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(486, 1, 0, ["cc ", "cp ", "   "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(486, 2); 
 
 ModPE.setItem(485, "stone_shovelhead", 0, "Stone Shovel Head"); 
-Item.addShapedRecipe(485, 1, 0, [" c ", " p ", "   "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(485, 1, 0, [" c ", " p ", "   "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(485, 2); 
 
 ModPE.setItem(484, "stone_mattock", 0, "Stone Mattock", 1); 
-Item.addShapedRecipe(484, 1, 0, ["s a", " t ", "   "], ["s", 485, 0,"a", 486, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(484, 1, 0, ["s a", " t ", "   "], ["s", 485, 0,"a", 486, 0, "t", 497, 0]); 
 Item.setCategory(484, 2); 
 Item.setMaxDamage(484, 131); 
 Item.setHandEquipped(484, true);
 Player.addItemCreativeInv(484, 1);
 
 ModPE.setItem(483, "stone_chiselhead", 0, "Stone Chisel Head"); 
-Item.addShapedRecipe(483, 1, 0, [" c ", " p ", "   "], ["c", 4, 0,"p", 496, 0]); 
+//Item.addShapedRecipe(483, 1, 0, [" c ", " p ", "   "], ["c", 4, 0,"p", 496, 0]); 
 Item.setCategory(483, 2); 
 
 ModPE.setItem(482, "stone_chisel", 0, "Stone Chisel", 1); 
-Item.addShapedRecipe(482, 1, 0, ["   ", " h ", " t "], ["h", 483, 0,"t", 497, 0]); 
+//Item.addShapedRecipe(482, 1, 0, ["   ", " h ", " t "], ["h", 483, 0,"t", 497, 0]); 
 Item.setCategory(482, 2); 
 Item.setMaxDamage(482, 131); 
 Player.addItemCreativeInv(482, 1);
 
 ModPE.setItem(481, "stone_lumberaxe", 0, "Stone Lumber Axe", 1); 
-Item.addShapedRecipe(481, 1, 0, [" h ", " b ", " t "], ["h", 480, 0, "b", 478, 0, "t", 477, 0]); 
+//Item.addShapedRecipe(481, 1, 0, [" h ", " b ", " t "], ["h", 480, 0, "b", 478, 0, "t", 477, 0]); 
 Item.setMaxDamage(481, 131);
 Item.setHandEquipped(481, true);
 Player.addItemCreativeInv(481, 1);
 
 ModPE.setItem(468, "cactus_lumberaxe", 0, "Cactus Lumber Axe", 1); 
-Item.addShapedRecipe(468, 1, 0, [" h ", " b ", " r "], ["h", 466, 0, "b", 465, 0, "r", 464, 0]);
+//Item.addShapedRecipe(468, 1, 0, [" h ", " b ", " r "], ["h", 466, 0, "b", 465, 0, "r", 464, 0]);
 Item.setMaxDamage(468, 150);
 Item.setHandEquipped(468, true);
 Player.addItemCreativeInv(468, 1);
 
 ModPE.setItem(480, "stone_lumberaxehead", 0, "Stone Lumber Axe Head"); 
 
-Item.addShapedRecipe(480, 1, 0, ["cc ", "cp ", "   "], ["c", 4, 0, "p", 496, 0]); 
+//Item.addShapedRecipe(480, 1, 0, ["cc ", "cp ", "   "], ["c", 4, 0, "p", 496, 0]); 
 
 ModPE.setItem(479, "stone_largeplate", 0, "Stone Large Plate"); 
-Item.addShapedRecipe(479, 1, 0, ["ccc", "cpc", "ccc"], ["c", 4, 0, "p", 496, 0]); 
+//Item.addShapedRecipe(479, 1, 0, ["ccc", "cpc", "ccc"], ["c", 4, 0, "p", 496, 0]); 
 
 ModPE.setItem(478, "stone_binding_reinforced", 0, "Stone Tough Binding"); 
-Item.addShapedRecipe(478, 1, 0, ["c c", " p ", " c "], ["c", 4, 0, "p", 496, 0]); 
+//Item.addShapedRecipe(478, 1, 0, ["c c", " p ", " c "], ["c", 4, 0, "p", 496, 0]); 
 
 ModPE.setItem(477, "stone_rod_reinforced", 0, "Stone Tough Rod"); 
-Item.addShapedRecipe(477, 1, 0, ["ptp", "ptp", "ptp"], ["p", 479, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(477, 1, 0, ["ptp", "ptp", "ptp"], ["p", 479, 0, "t", 497, 0]); 
 
 ModPE.setItem(422, "stone_hammer", 0, "Stone Hammer", 1); 
 //Item.addShapedRecipe(422, 1, 0, ["lhl", " t  ", "  "], ["h", 423, 0, "l", 479, 0, "t", 497, 0]); 
-Item.addShapedRecipe(422, 1, 0, ["lhl"," t ", "   "], ["h", 423, 0, "l", 479, 0, "t", 497, 0]); 
+//Item.addShapedRecipe(422, 1, 0, ["lhl"," t ", "   "], ["h", 423, 0, "l", 479, 0, "t", 497, 0]); 
 Item.setMaxDamage(422, 131);
 Item.setHandEquipped(422, true);
 Player.addItemCreativeInv(422, 1);
 
 ModPE.setItem(423, "stone_hammerhead", 0, "Stone Hammer Head"); 
-Item.addShapedRecipe(423, 1, 0, ["sss", " p  ", "  "], ["p", 496, 0, "s", 4, 0]); 
+//Item.addShapedRecipe(423, 1, 0, ["sss", " p  ", "  "], ["p", 496, 0, "s", 4, 0]); 
 
 function attackHook(a, v){ 
 try {
